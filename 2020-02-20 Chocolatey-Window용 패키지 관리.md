@@ -4,7 +4,7 @@
 - Windonw 환경에서 Mac의 Homebrew, Linux의 yum, apt-get과 같은 역할을 수행하는 **NuGet 기반의 윈도우용 패키지 관리자**
 - 명령 프롬프트상에서 간단한 명령어 만으로 프로그램/패키지를 설치,삭제,업데이트 가능
 
-![ex_screenshot](./til_img/screenshot1.png)
+![ex_screenshot](./Til_img/screenshot1.png)
 - Chocolatey 홈페이지 - https://chocolatey.org/
 
 ---
