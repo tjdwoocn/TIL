@@ -21,10 +21,10 @@
 ### Powershell 관리자 권한으로 실행
 - PowerShell은 명령프롬프트/cmd 보다 향상된 명령어 입력 환경
 - WinKey + R 을 눌러 실행창을 연 다음 pwershell 입력   
-![ex_screenshot](./til_img/screenshot2.png)
+![ex_screenshot](./TIL_img/screenshot2.png)
     >관리자 권한 실행: 위의 창에서 Ctrl + Shift + Enter 를 동시에 누름
 
-![ex_screenshot](./til_img/screenshot3.png)
+![ex_screenshot](./TIL_img/screenshot3.png)
 
 --> 관리자로 들어옴
 
@@ -33,7 +33,7 @@
 
 ### Choco 설치
 - https://chocolatey.org/install 에 접속하여 페이지 중간쯤에 있는 명령어를 PowerShell에서 실행
-![ex_screenshot](./til_img/screenshot4.png)
+![ex_screenshot](./TIL_img/screenshot4.png)
 - 또는 아래의 명령어 복사+붙이기 하여 실행
 
 ```python
@@ -42,7 +42,7 @@ ocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-O
 ng('https://chocolatey.org/install.ps1'))
 ```
 
-![ex_screenshot](./til_img/screenshot5.png)
+![ex_screenshot](./TIL_img/screenshot5.png)
 - 설치완료
 ---
 
@@ -50,13 +50,13 @@ ng('https://chocolatey.org/install.ps1'))
 ### 패키지 검색/목록 확인
 - https://chocolatey.org/packages 에서 패키지 검색 또는 cmd/PowerShell 에서 검색
 
-![ex_screenshot](./til_img/screenshot7.png)
+![ex_screenshot](./TIL_img/screenshot7.png)
 - Elasticsearch 찾음
 - 사진 하단의  **choco install elasticsearch**명령어를 PowerShell에 입력하면 설치됨
   
 - 또는 
 
-![ex_screenshot](./til_img/screenshot6.png)
+![ex_screenshot](./TIL_img/screenshot6.png)
 - PowerShell 에서 search 명령어로 패키지 검색    
   --> 패키지가 없는 경우도 있음
   ```python
@@ -67,7 +67,7 @@ ng('https://chocolatey.org/install.ps1'))
 ``` python
 choco install -y --force grafana
 ```
-![ex_screenshot](./til_img/screenshot9.png)
+![ex_screenshot](./TIL_img/screenshot9.png)
 - Grafana 설치 완료
   
 ---
@@ -81,7 +81,7 @@ choco install -y --force -jdk8 -version=8.0.221
 ### 환경변수 설정
 - Java, Python, MySQL, Tomcat 등과 같이 환경 변수 설정이 필요한경우 자동으로 처리된다고 합니다...? 진짜??
 
-![ex_screenshot](./til_img/screenshot8.png)
+![ex_screenshot](./TIL_img/screenshot8.png)
 - elasticsearch를 다운하려는 와중 이런에러가 발생했는데... 해결방안을 못찾았음.. ㅜㅜ
 
 ### 기타 명령어
@@ -105,3 +105,5 @@ choco search 패키지이름 --exact --detailed
 ```python
 choco info 패키지이름
 ```
+
+
